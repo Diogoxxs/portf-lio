@@ -1,0 +1,299 @@
+body{
+    background-color: rgb(4, 63, 63)
+}
+input#AC:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#AC {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 150px; left: 60px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px;}
+   input#back:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#back {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 150px; left: 140px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; } 
+
+input#cento:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#cento {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 150px; left: 220px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#dividir:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#dividir {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    opacity: 0.6 ;
+    border-radius: 50%;
+    position: absolute; top: 150px; left: 300px;
+   height: 60px;
+   width: 60px;}
+
+   input#sete:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);  
+}
+input#sete {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 220px; left: 60px;
+   height: 60px;
+   opacity: 0.6 ;
+   width: 60px; }
+   input#oito:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);          
+}
+input#oito {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 220px; left: 140px;
+   height: 60px;
+   opacity: 0.6 ;
+   width: 60px; }
+   input#nove:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);          
+}
+input#nove {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 220px; left: 220px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#vezes:hover {
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color:rgb(20, 0, 90);
+}
+input#vezes {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    opacity: 0.6 ;
+    border-radius: 50%;
+    position: absolute; top: 220px; left: 300px;
+    height: 60px;
+    width: 60px;
+}
+   input#quatro:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);  
+}
+input#quatro {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    opacity: 0.6 ;
+    border-radius: 50%;
+    position: absolute; top: 290px; left: 60px;
+   height: 60px;
+   width: 60px; }
+   input#cinco:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);  
+}
+input#cinco {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 290px; left: 140px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#seis:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);  
+}
+input#seis {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    opacity: 0.6 ;
+    position: absolute; top: 290px; left: 220px;
+   height: 60px;
+   width: 60px; }
+   input#menos:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#menos {
+    font-size: 130%;
+    color: rgb(253, 253, 253);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 290px; left: 300px;
+   height: 60px;
+   opacity: 0.6 ;
+   width: 60px; }
+   input#um:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);  
+}
+input#um{
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 360px; left: 60px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#dois:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(33, 66, 66);  
+}
+input#dois {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 360px; left: 140px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#tres:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(33, 66, 66);  
+}
+input#tres {
+    font-size: 130%;
+    color: rgb(247, 247, 247);
+    background-color: rgb(133, 76, 184);
+    border-radius: 50%;
+    position: absolute; top: 360px; left: 220px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+   input#mais:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+
+input#mais {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 360px; left: 300px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+
+
+   input#zero:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 10px; color: rgb(0, 0, 0);}
+input#zero {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius: 30px; 
+    opacity: 0.6 ;
+    position: absolute; top: 430px; left: 60px;
+   height: 60px;
+   width: 140px; }
+
+
+   input#vir:hover { 
+    border: 1px solid;
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(142, 146, 146);  }
+input#vir {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 76, 184);
+    border-radius:  50%;
+    opacity: 0.6 ;
+    position: absolute; top: 430px; left: 220px;
+   height: 60px;
+   width: 60px; }
+
+   input#igual:hover { 
+    border: 1px solid rgb( 0, 0, 0);
+    box-shadow: 0px 0px 0px, 0px 0px 18px; color: rgb(20, 0, 90);
+}
+input#igual {
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 128, 182);
+    border-radius: 50%;
+    position: absolute; top: 430px; left: 300px;
+    opacity: 0.6 ;
+   height: 60px;
+   width: 60px; }
+
+
+   div#res {
+    text-align-last: right;
+    position: absolute; top: 70px; left: 50px;
+    border-radius: 50px;
+    z-index: 2;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(235, 217, 217);
+    border-top: 3px solid rgb(59, 25, 88);
+    border-right: 7px solid rgb(59, 25, 88);
+    border-bottom: 7px solid rgb(59, 25, 88);
+    
+       
+    }
+div#area {
+    position: absolute; left: 40%; 
+    margin-top: 150px;
+    width: 400px;
+    height: 525px;
+    background-color: rgb(221, 195, 199);
+    border-radius: 10%; 
+    border-top: 5px solid rgb(59, 25, 88);
+    border-right: 20px solid rgb(59, 25, 88);
+    border-bottom: 15px solid rgb(59, 25, 88);
+    z-index: 1;
+    transition: all 1s;
+    }
+    
+    div#num {
+        
+        position: relative; top: 15px; right: 20px;
+        font: 20pt arial;
+    }
+
+    @media (max-width: 1000px){
+       div#area{
+        position: absolute; left: 20%; 
+        transition: all 1s;
+       }
+    }

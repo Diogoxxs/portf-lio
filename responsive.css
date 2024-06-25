@@ -1,0 +1,395 @@
+/* Responsiveness */
+/*@768 @941*/
+@media (min-width: 300px) and (max-width: 941px){
+  .bottom{
+    display: none;
+  }
+    div#txt1{
+      font-size: 9pt;
+      left: 50%;
+    }
+    input#btn-mobile{
+     
+     
+      
+      cursor: pointer;
+    }
+  }
+
+
+/* @942 @1400 Notebook*/
+@media (min-width: 942px) and (max-width: 1400px){
+    /* About */ 
+    .I{
+        top: 970px;
+        left: 30px;
+    }
+    #eu{
+        width: 200px;
+    }
+    .Aboutme{
+        gap: 20px;
+        left: 250px;
+        top: 990px;
+        font-size: 12pt;
+    }
+
+    .tec{
+        opacity: 1;
+        font-size: 15pt;
+        top: 950px; 
+        left: 75%;
+
+    }
+
+    .tech{
+        font-size: 15pt;
+        top: 950px; 
+        left: 75%;
+
+    }
+    .logos1{
+        opacity: 0;
+        top: 1000px; 
+        left: 70%;
+        display: grid;
+        gap: 10px;
+    }
+    .logos2{
+        opacity: 0;
+        top: 1000px; 
+        left: 85%;
+        display: grid;
+        gap: 10px;
+    }
+    .lg1{
+        opacity: 1;
+        top: 1000px; 
+        left: 70%;
+        display: grid;
+        gap: 10px;
+      
+    }
+    .lg2{
+        opacity: 1;
+        top: 1000px; 
+        left: 85%;
+        display: grid;
+        gap: 10px;
+    }
+
+
+    .textabout1{
+        position: absolute; top: 1380px; left: 2%; right: 100px;
+        font-size: 13pt; 
+        max-width: 300px;
+    }
+    .textabout2{ 
+        position: absolute; top: 1380px; left: 37%; right: 100px;
+        font-size: 13pt; 
+        max-width: 320px;
+    }
+    .textabout3{ 
+        position: absolute; top: 1380px; left: 73%; right: 100px;
+        font-size: 13pt; 
+        width: 250px;
+        max-width: 250px;
+    }
+
+    .selector{
+        position: absolute; top: 1300px; left: 20%;
+        width: 20px;
+        height: 20px;
+      
+      }
+      .selector2{
+        position: absolute; top: 1300px; left: 50%;
+        width: 20px;
+        height: 20px;
+       
+      }
+      .selector3{
+        position: absolute; top: 1300px; left: 83%;
+        width: 20px;
+        height: 20px;
+    
+      }
+      
+       .traco{
+        position: absolute; top: 1309px; left: 52%; right: 10%;
+        transform: translate(-50%, -50%);
+        width: 64%;
+      }
+/* Project */
+      
+    .cardone{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 1850px;
+        height: 20dvh;
+        left: 50%;
+        
+    }
+    .cardtwo{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 2050px;
+        height: 20dvh;
+        left: 50%;
+    }
+    .cardthree{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 2260px;
+        height: 20dvh;
+        left: 50%;
+        
+    }
+
+
+    .card1{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 1930px;
+        height: 20dvh;
+        left: 50%;
+    }
+
+    .card2{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 2130px;
+        height: 20dvh;
+        left: 50%;
+    }
+    
+    .card3{
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 500px;
+        margin-top: 2330px;
+        height: 20dvh;
+        left: 50%;
+    }
+
+    #txtcardone{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    #txtcardtwo{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    #txtcardthree{
+        font-size: 25px;
+        margin-top: 10%;
+    }
+/* Contact */
+    .principe{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 2820px; left: 50%;
+      }
+      .prince{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 2870px; left: 50%;
+      }
+        .C{
+        transform: translate(-50%, -50%);
+        left: 51%;
+        font-size: 14pt;
+        position: relative; top: 3180px;
+        width: 600px;
+
+        }
+       .CC{
+        transform: translate(-50%, -50%);
+        left: 51%;
+        font-size: 14pt;
+        position: relative; top: 3280px;
+        width: 600px;
+        
+       }
+    
+       .crr{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3100px; left: 50%;
+        
+       }
+      
+       .ccrr{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3200px; left: 50%;
+       }
+       
+       .linksimg{
+        transform: translate(-50%, -50%);
+         position: absolute; top: 3220px; left: 50%;
+      }
+      
+      .links{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3338px; left: 50%;
+      }
+      
+}
+ /* @1401 @1800 Desktop*/
+@media (min-width: 1401px) and (max-width: 1800px){
+     /*Aboutme*/
+    .tec{
+        font-size: 20pt;
+        top: 950px; 
+        left: 75%;
+
+    }
+
+    .tech{
+        font-size: 20pt;
+        top: 950px; 
+        left: 72%;
+
+    }
+    .I{
+        top: 970px;
+        left: 60px;
+    }
+    #eu{
+        width: 250px;
+    }
+    .Aboutme{
+        gap: 35px;
+        left: 330px;
+        top: 990px;
+        font-size: 12pt;
+    }
+    .selector{
+        position: absolute; top: 1350px; left: 20%;
+        width: 20px;
+        height: 20px;
+      
+      }
+      .selector2{
+        position: absolute; top: 1350px; left: 50%;
+        width: 20px;
+        height: 20px;
+       
+      }
+      .selector3{
+        position: absolute; top: 1350px; left: 83%;
+        width: 20px;
+        height: 20px;
+    
+      }
+       .traco{
+        position: absolute; top: 1359px; left: 52%; right: 10%;
+        transform: translate(-50%, -50%);
+        width: 64%;
+      }
+
+    .textabout1{
+        position: absolute; top: 1400px; left: 10%; right: 100px;
+        font-size: 13pt; 
+        max-width: 300px;
+    }
+    .textabout2{ 
+        position: absolute; top: 1400px; left: 41%; right: 100px;
+        font-size: 13pt; 
+        max-width: 320px;
+    }
+    .textabout3{ 
+        position: absolute; top: 1400px; left: 73%; right: 100px;
+        font-size: 13pt; 
+        width: 250px;
+        max-width: 250px;
+    }
+     /*Projetct*/
+
+    .card1{
+        left: 10%;
+        height: 70dvh;
+        width: 350px;
+      }
+      
+      
+      .card2{
+        left: 40%;
+        height: 70dvh;
+        width: 350px;
+      }
+      
+      .card3{
+
+        left: 70%;
+        height: 70dvh;
+        width: 350px;
+      }
+
+      .cardone {
+        left: 10%;
+        height: 70dvh;
+        width: 350px;
+      }
+      .cardtwo {
+        left: 40%;
+        height: 70dvh;
+        width: 350px;
+      }
+
+      .cardthree {
+        left: 70%;
+        height: 70dvh;
+        width: 350px;
+      }
+      
+      /* Contact */
+    .principe{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 2820px; left: 50%;
+      }
+      .prince{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 2870px; left: 50%;
+      }
+        .C{
+        transform: translate(-50%, -50%);
+        left: 51%;
+        font-size: 14pt;
+        position: relative; top: 3180px;
+        width: 600px;
+
+        }
+       .CC{
+        transform: translate(-50%, -50%);
+        left: 51%;
+        font-size: 14pt;
+        position: relative; top: 3280px;
+        width: 600px;
+        
+       }
+    
+       .crr{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3100px; left: 50%;
+        
+       }
+      
+       .ccrr{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3200px; left: 50%;
+       }
+       
+       .linksimg{
+        transform: translate(-50%, -50%);
+         position: absolute; top: 3220px; left: 50%;
+      }
+      
+      .links{
+        transform: translate(-50%, -50%);
+        position: absolute; top: 3338px; left: 50%;
+      }
+}
+

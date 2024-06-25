@@ -1,0 +1,102 @@
+/* Contact */
+#CT{
+  
+  position: absolute; top: 3500px;
+ 
+ }
+
+.C {
+  transform: translateY(-10%);
+  opacity: 0;
+    text-align: left;
+    color: aliceblue;
+    left: 35%;
+    font-size: 14pt;
+    padding-bottom: 400px;
+    position: relative; top: 3080px; 
+    width: 600px;
+  }
+
+
+ .crr{
+  opacity: 0;
+  transform: translateY(-30%);
+  position: absolute; top: 3220px; left: 42%;
+  
+ }
+
+ .ccrr{
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 2s;
+  position: absolute; top: 3220px; left: 42%;
+ }
+
+ #B {
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 12pt Arial;
+  z-index: 1;
+  color: #6f93aa;
+  background-color: #ffffff;
+  opacity: 1;
+  height: 40px;
+  width: 300px;
+  border: none;
+ }
+ input#B:hover {
+  transition: 1s;
+  background-color: rgb(250, 255, 252);
+  z-index: 1;
+  border: 1px solid;
+  box-shadow: 0px 0px 0px, 0px 0px 18px;
+  color: #6f93aa;
+  
+}
+
+.linksimg{
+  opacity: 0;
+  transform: translateY(-20%);
+  display: flex;
+  position: absolute; top: 3380px; left: 41%;
+  gap: 25px;
+}
+
+.principe{
+  opacity: 0;
+  transform: translateY(-10%);
+  position: absolute; top: 2750px; left: 42%;
+}
+
+/* Efects Contact*/
+
+.links{
+  opacity: 1;
+  transition: 2s;
+  transform: translateX(0%);
+  display: flex;
+  position: absolute; top: 3380px; left: 41%;
+  gap: 25px;
+}
+
+.CC{
+  transform: translateY(0%);
+  opacity: 1;
+  transition: 2s;
+  text-align: left;
+  color: aliceblue;
+  left: 35%;
+  font-size: 14pt;
+  padding-bottom: 400px;
+  position: absolute; top: 3080px; 
+  width: 600px;
+}
+
+.prince{
+  transition: 2s;
+  opacity: 1;
+  transform: translateY(0%);
+  position: absolute; top: 2750px; left: 42%;
+}
+
+

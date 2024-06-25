@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(66, 42, 124);
+}
+#image-nave{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1500px;
+    transition: all 1s;
+}
+#error404{
+    font: 20pt arial;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#xxs{
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+     color: #e21111;
+}
+
+#error-mensage{
+  font-weight: bold;
+  font: 17pt arial;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+  #roboimg{
+    transform: translate(-10%, -50%);
+    position: absolute;
+    left: 59%;
+    top: 50%;
+    z-index: 1;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  @media (min-width: 500px) and (max-width: 1350px){
+    #image-nave{
+        width: 1000px;
+        height: auto;
+        transition: all 1s;
+    }
+  }

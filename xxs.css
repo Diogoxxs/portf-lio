@@ -1,0 +1,93 @@
+/* HTML */ 
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes off {
+  0% {
+    background-position-y: 0%;
+  }
+
+  100% {
+    background-position: 300%;
+  }
+
+}
+/* Body */
+
+body {
+	width:100%vh; 
+	height:100%; 
+	padding:0px; 
+	margin:0px;
+	background: #191d1e; /* Old browsers */
+	background: -moz-linear-gradient(0deg,  #191d1e 50%, #283139 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(50%,#191d1e), color-stop(100%,#283139)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* IE10+ */
+	background: linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-attachment: fixed
+}
+
+
+
+/* Effects Top scroll */ 
+
+
+header {
+
+  transition: 1s;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1%;
+}
+
+
+header.ff {
+  opacity: 0.5;
+  background: #3d3d3d;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  height: 10%;
+  transition: 1s;
+
+}
+
+#btn-mobile{
+  display: none;
+  z-index: 2;
+  position: fixed;
+  left: 80%;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background: #3d3d3d;
+  color: white;
+}
+
+
+/* Scroll marked points */
+
+#HM{
+  position: absolute; top: 0px;
+}
+#AB{
+  position: absolute; top: 835px; 
+}
+#PJ{
+  position: absolute; top: 1730px; 
+}
+#CTT{
+  position: absolute; top: 2400px; 
+}
+
+

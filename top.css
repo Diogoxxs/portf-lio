@@ -1,0 +1,80 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+  /* text top */
+  #txt1{
+    z-index: 2;
+    color: #6f93aa;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: none;
+  }
+
+
+.ola{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left:50%;
+  font-size: 30pt;
+  color: #6f93aa;
+} 
+
+.ola span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid #ffffff;
+  right: -10px;
+  animation: cursor 1.5s infinite, digitar 15s steps(15) infinite;
+  width: calc(100% + 10px);
+  background: #191d1e;
+}
+
+.ola span { 
+  position: relative;
+}
+
+.ola span::before{
+  content: "";
+  color: #ffffff;
+  animation: letras 15s infinite;
+
+}
+
+@keyframes digitar {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 10px);
+  }
+}
+
+
+@keyframes cursor {
+  0%{
+    border-left: 2px solid #191d1e;
+  }
+}
+
+@keyframes letras { 
+  0%, 20%{
+    content: " bem-vindo";
+  }
+  21%, 40%{
+    content: " tudo bem ?";
+  }
+  41%, 60%{
+    content: " bom te ver";
+  }
+  61%, 80%{
+    content: " esse é meu site";
+  }
+  81%, 100%{
+    content: " sinta-se em casa !";
+  }
+}
